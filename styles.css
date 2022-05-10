@@ -102,11 +102,7 @@ a i {
   background-size: cover;
   filter: blur(3px);
 }
-
-body {
-  min-height: 100%;
-}
-
+  
 .footer {
   position: absolute;
   right: 0;
