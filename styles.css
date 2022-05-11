@@ -112,7 +112,7 @@ a i {
   margin: -5%;
 /*   background-image: url(https://c2.staticflickr.com/8/7144/6833943163_42760fc771_b.jpg); */
   background-image: url(https://c1.peakpx.com/wallpaper/300/939/650/cold-snow-nature-weather-wallpaper.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   filter: blur(3px);
 }
   
