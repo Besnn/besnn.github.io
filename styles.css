@@ -12,8 +12,6 @@
 
 body {
   min-height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 .about-container {
@@ -106,12 +104,15 @@ a i {
 }
 
 .background {
+  position: absolute;
+  z-index: -2;
 /*   border: 1px red solid; */
-  height: 320px;
-  width: 110%;
-  margin: -20px -5% 0 -5%;
-  background-image: url(https://c2.staticflickr.com/8/7144/6833943163_42760fc771_b.jpg);
-  background-size: cover;
+  height: 200%;
+  width: 200%;
+  margin: -5%;
+/*   background-image: url(https://c2.staticflickr.com/8/7144/6833943163_42760fc771_b.jpg); */
+  background-image: url(https://c1.peakpx.com/wallpaper/300/939/650/cold-snow-nature-weather-wallpaper.jpg);
+  background-size: 100% 100%;
   filter: blur(3px);
 }
   
