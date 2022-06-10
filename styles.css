@@ -3,7 +3,7 @@
 
 :root {
   --center-height: 360px;
-  --center-width: 528px;
+  --center-width: 500px;
   --photo-container-size: 180px;
   --background-image-height: 250px;
   --envelope-height: 36px;
@@ -16,7 +16,7 @@ body {
 }
 
 .about-container {
-  height: var(--center-height);
+  height: calc(var(--center-height) + 2em);
   width: var(--center-width);
   background-color: white;
   border-radius: 20px;
@@ -33,7 +33,7 @@ body {
   height: var(--photo-container-size);
   width: var(--photo-container-size);
   float: left;
-  top: -18%;
+  top: -10%;
   left: 5%;
   border: 10px solid white;
   border-radius: 50%;
@@ -79,7 +79,7 @@ a {
 }
 
 a i {
-  font-size: 1.8rem;
+  font-size: 1.85em;
   margin: 0 10px 0 2px;
 }
 
@@ -91,6 +91,7 @@ a i {
   height: 50%;
   width: 85%;
   margin: 0 10px;
+  margin-top: 1.5em;
   float: left;
   font-family: 'Roboto', 'sans-serif';
   color: #383838;
@@ -99,6 +100,12 @@ a i {
 }
 
 .about-bottom ul {
+  margin: 5px 0;
+  padding-left: 20px;
+  list-style: square;
+}
+
+ ul {
   margin: 5px 0;
   padding-left: 20px;
   list-style: square;
@@ -166,16 +173,11 @@ a i {
   left: calc((100% - var(--center-width))/2);
 }
 
-@media screen and (max-aspect-ratio: 1/1) {
-  .center-guide {
-  }
-}
-
 .content-container {
 /*   height: var(--center-height); */
   width: var(--center-width);
   background-color: white;
-  margin: 20px 0;
+  margin: 1em 0;
   border-radius: 20px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   float: right;
@@ -191,6 +193,10 @@ a i {
 
 #skills i {
   font-size: 1.2rem;
+}
+
+.technology-token {
+  display: inline-block;
 }
 
 #spacer {
@@ -218,4 +224,8 @@ a i {
   color: #383838;
   font-size: 17px;
   line-height: 1.5rem;
+}
+
+#footer-container {
+  /*margin-top: 2em;*/
 }
