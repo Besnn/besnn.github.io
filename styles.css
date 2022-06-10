@@ -166,6 +166,11 @@ a i {
   left: calc((100% - var(--center-width))/2);
 }
 
+@media screen and (max-aspect-ratio: 1/1) {
+  .center-guide {
+  }
+}
+
 .content-container {
 /*   height: var(--center-height); */
   width: var(--center-width);
